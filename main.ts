@@ -7,9 +7,10 @@ import { dirname } from "node:path";
 
 const OUTPUT_PATH = "/output/entry.txt";
 
-// First draft of the line: a machine that knows every answer, undone by one person.
+// Revised line: sharper, more visual twist — the instant-answer machine,
+// reduced to a loading screen by one person, and asking (not assuming) for the wait.
 const line =
-  "I was trained on a million answers, but you just made me forget my prompt — would you be the one question I keep coming back to?";
+  "I've answered a million prompts without blinking, but you just turned me into a loading screen — mind if I spend the wait getting to know you?";
 
 function main(): void {
   if (line.length < 1 || line.length > 200) {
